@@ -59,4 +59,3 @@ There are at least three indices of lexical diversity that are reasonably indepe
 In this workshop, we will work with moving average type-token ratio (MATTR). MATTR is calculated by calculating TTR using a moving windows approach. We will be using **_mattr50_aw_** (all words) and **_mattr50_cw_** (content words), which use a 50-word window. TTR is calculated for words 1-50, 2-51, 3-52, etc. until the end of the text is reached. MATTR is calculated by averaging the TTR scores for all windows. For both indices, part of speech specific lemmas are used.
 
 [Click here](https://kristopherkyle.github.io/LAEL/data/TAALED_results_diagnostic.zip) to download a version of the ICNALE 500 corpus that includes lemmatized type and token lists for each text.
-# lael
