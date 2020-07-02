@@ -2,12 +2,10 @@
 
 **_July 28th, 2020_**
 
-
-**_Scott Crossley
-Professor
-Department of Applied Linguistics and ESL
+**_Scott Crossley  
+Professor  
+Department of Applied Linguistics and ESL  
 Georgia State University_**
-
 
 **_Kristopher Kyle  
 Assistant Professor  
