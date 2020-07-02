@@ -1,18 +1,20 @@
 ## Resource page for the Automatically Assessing Lexical Features in Learner Corpora Workshop
 
-**_July 28th, 2020  
-Scott Crossley
+**_July 28th, 2020_**
+
+
+**_Scott Crossley
 Professor
 Department of Applied Linguistics and ESL
-Georgia State University
+Georgia State University_**
 
 
-Kristopher Kyle  
+**_Kristopher Kyle  
 Assistant Professor  
 Department of Linguistics  
 University of Oregon_**
 
-_This page includes important datasets and other related material for the Automatically Assessing Lexical Features in Learner Corpora Workshop at LAEL 2020.
+_This page includes important datasets and other related material for the Automatically Assessing Lexical Features in Learner Corpora Workshop at LAEL 2020._
 
 ### Learner Corpus
 The learner corpus in this workshop is a sample of the written section of the <a href="http://language.sakura.ne.jp/icnale/" target="_blank">ICNALE corpus</a> (Ishikawa, 2013), which is a cross-sectional learner corpus with a substantial amount of participant metadata.
