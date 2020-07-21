@@ -21,15 +21,15 @@ ICNALE includes writing samples from 500 L2 learners of English. During corpus c
 
 The sample compiled for this workshop (ICNALE 500) includes both writing samples for 500 participants (both essay responses from each participant are included in a single file) across a range of nationalities (these function as an imperfect proxy for L1). In the larger corpus, some participants failed to report a standardized test score, and the corpus compilers estimated their language proficiency using their VST score. However, in this sample, all proficiency scores are based on standardized test scores. Additionally, there are some character encoding issues in the original corpus that can cause problems with some text analysis programs. These issues have been remedied in the ICNALE 500.
 
-[Click here to download the ICNALE 500 corpus](https://kristopherkyle.github.io/LAEL/data/ICNALE_500_merged_clean.zip) (This also includes a subset of the metadata).
+[Click here to download the ICNALE 500 corpus](https://github.com/kristopherkyle/lael/blob/master/data/ICNALE_500_merged_clean.zip?raw=true) (This also includes a subset of the metadata).
 
 ### Linguistic Complexity Indices
 
 All linguistic complexity indices were computed by one of two tools that are freely available on [www.linguisticanalysistools.org](https://www.linguisticanalysistools.org), namely [TAALES](https://www.linguisticanalysistools.org/taales.html), and [TAALED](https://www.linguisticanalysistools.org/taaled.html). Full descriptions of these tools can be found in the documents on their related pages and in a few [published papers](http://www.kristopherkyle.com/publicationsgrants.html). A small (but useful!) sample of these indices are briefly described below.
 
-To download a spreadsheet that includes the ICNALE 500 metadata and sores for each of the indices, [click here](https://kristopherkyle.github.io/LAEL/data/ICNALE_500_Analyzed.csv.zip)
+To download a spreadsheet that includes the ICNALE 500 metadata and sores for each of the indices, [click here](https://github.com/kristopherkyle/lael/blob/master/data/ICNALE_500_Analyzed.csv.zip?raw=true)
 
-To download a very simple R script with the sample analysis, [click here](https://kristopherkyle.github.io/LAEL/data/Freq_analysis.r)
+To download a very simple R script with the sample analysis, [click here](https://raw.githubusercontent.com/kristopherkyle/lael/master/data/Freq_analysis.r)
 
 #### Measuring Lexical Sophistication ([TAALES](https://www.linguisticanalysistools.org/taales.html))
 The Tool for the Automatic Analysis of Lexical Sophistication (TAALES) measures over 400 indices related to lexical sophistication (i.e., the relative difficulty of learning and/or using a particular word, see also the related definition of Read (2000)). It is our stance that lexical sophistication is a multifaceted construct and should be measured as such (see, e.g., Eguchi & Kyle, under review; Kim, Crossley, & Kyle, 2018, Kyle & Crossley, 2015; Kyle, Crossley, & Berger, 2018, inter alia). Below are brief descriptions of indices that represent a few of these facets.
@@ -47,7 +47,7 @@ Concreteness refers to the degree to which a word represents a perceptible entit
 ##### Lexical decision times
 A related way to look at lexical sophistication is to consider listeners' perceptions of sophistication, which is likely related to the definition provided above, but is not precisely the same. One way to measure this type of sophistication is to use lexical decision times that are average across a large number of proficient language users. These are calculated by determining the amount of time it takes a participant to decide whether a word is from the target language (e.g., English) or not. Words with short latencies (such as _cat_) can be accessed quickly, while words with longer latencies (such as _indefiniteness_) cannot be accessed as quickly and can be perceived as being more sophisticated. We would expect that more proficient learners would on average use words that have longer latencies. The index **_LD_Mean_RT_CW_** is based on the norms reported in Balota et al., (2007).
 
-[Click here](https://kristopherkyle.github.io/LAEL/data/TAALES_Diagnostic.zip) to download a version of the ICNALE 500 corpus that includes index scores for each word in each text.
+[Click here](https://github.com/kristopherkyle/lael/blob/master/data/TAALES_Diagnostic.zip?raw=true) to download a version of the ICNALE 500 corpus that includes index scores for each word in each text.
 
 #### Measuring Lexical Diversity ([TAALED](https://www.linguisticanalysistools.org/taaled.html))
 Lexical diversity refers to the amount of lexical variation in a text. The working hypothesis is that language users with a larger vocabulary will produce texts with more diverse lexical items (given a particular task.  Accordingly, we would expect more proficient language users to produce more lexically diverse texts.
@@ -58,4 +58,4 @@ There are at least three indices of lexical diversity that are reasonably indepe
 
 In this workshop, we will work with moving average type-token ratio (MATTR). MATTR is calculated by calculating TTR using a moving windows approach. We will be using **_mattr50_aw_** (all words) and **_mattr50_cw_** (content words), which use a 50-word window. TTR is calculated for words 1-50, 2-51, 3-52, etc. until the end of the text is reached. MATTR is calculated by averaging the TTR scores for all windows. For both indices, part of speech specific lemmas are used.
 
-[Click here](https://kristopherkyle.github.io/LAEL/data/TAALED_results_diagnostic.zip) to download a version of the ICNALE 500 corpus that includes lemmatized type and token lists for each text.
+[Click here](https://github.com/kristopherkyle/lael/blob/master/data/TAALED_results_diagnostic.zip?raw=true) to download a version of the ICNALE 500 corpus that includes lemmatized type and token lists for each text.
